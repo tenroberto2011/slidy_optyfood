@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:optyfood/src/bloc/home_bloc.dart';
 import 'package:bloc_pattern/bloc_pattern.dart';
-import 'package:optyfood/src/page/home_page.dart';
+import 'package:optyfood/src/blocs/home_bloc.dart';
+import 'package:optyfood/src/pages/home_page.dart';
 
 class HomeModule extends ModuleWidget {
   @override

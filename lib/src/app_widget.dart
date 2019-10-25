@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:optyfood/src/module/home_module.dart';
-import 'package:optyfood/src/module/optyfood_login_module.dart';
+import 'package:optyfood/src/models/optyfood_login_module.dart';
 
 class AppWidget extends StatelessWidget {
   @override
