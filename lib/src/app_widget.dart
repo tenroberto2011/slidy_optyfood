@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:optyfood/src/models/optyfood_login_module.dart';
+import 'package:optyfood/src/models/splash_screen_module.dart';
 
 class AppWidget extends StatelessWidget {
   @override
@@ -10,7 +10,7 @@ class AppWidget extends StatelessWidget {
       //  primarySwatch: Colors.blue,
       //),
       // home: HomeModule(),
-      home: OptyfoodLoginModule(),
+      home: SplashScreenModule(),
     );
   }
 }

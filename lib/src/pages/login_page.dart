@@ -1,14 +1,13 @@
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:optyfood/src/components/opty_components.dart';
 
-class OptyFoodLoginPage extends StatefulWidget  {
+class LoginPage extends StatefulWidget  {
   @override
-  _OptyFoodLoginState createState() => _OptyFoodLoginState();
+  _LoginState createState() => _LoginState();
 }
 
-class _OptyFoodLoginState extends State<OptyFoodLoginPage> with OptyComponents {
+class _LoginState extends State<LoginPage> with OptyComponents {
 @override
   void initState() {
     super.initState();
