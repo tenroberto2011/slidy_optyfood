@@ -32,7 +32,7 @@ class _LoginState extends State<LoginPage> with OptyComponents {
           logo(),
           inputNmUsuario(),
           inputSenha(),
-          textEsqueceuSenha(),
+          textEsqueceuSenha(""),
           btnOptySignIn(texto: Text("Login Padrão")),
           btnOptySignIn(),
           btnSingInCircular(),

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:optyfood/src/pages/login_page.dart';
+import 'package:optyfood/src/ui/android/pages/login_page.dart';
 import 'package:optyfood/utils/nav.dart';
 import 'dart:async';
 

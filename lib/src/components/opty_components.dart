@@ -124,8 +124,8 @@ Widget btnSingInCircular(){
     );
 }
 
-  Widget textEsqueceuSenha(){
-    return Center(child: Text("Esqueceu à senha", textAlign: TextAlign.center, style: TextStyle(decoration: TextDecoration.underline, color: Colors.grey, fontSize: 16),),);
+  Widget textEsqueceuSenha(String txtSenha ){
+    return Center(child: Text(txtSenha=="" ? "Esqueceu a senha": txtSenha, textAlign: TextAlign.center, style: TextStyle(decoration: TextDecoration.underline, color: Colors.grey, fontSize: 16),),);
 
   }
 }

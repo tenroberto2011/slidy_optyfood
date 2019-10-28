@@ -1,7 +1,7 @@
 import 'package:bloc_pattern/bloc_pattern.dart';
 import 'package:flutter/material.dart';
 import 'package:optyfood/src/blocs/splash_screen_bloc.dart';
-import 'package:optyfood/src/pages/splash_screen_page.dart';
+import 'package:optyfood/src/ui/android/pages/splash_screen_page.dart';
 
 class SplashScreenModule extends ModuleWidget {
   @override
