@@ -10,9 +10,10 @@ class LoginPage extends StatefulWidget  {
 
 class _LoginState extends State<LoginPage> with OptyComponents {
 @override
-  void get initState {
-    super.initState;
-  }
+ void initState() {
+    super.initState();
+ }
+
 @override
   Widget build(BuildContext context) => Scaffold(
       appBar: AppBar(
