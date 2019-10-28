@@ -24,9 +24,10 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.red[200],
+      color: Colors.black12,
       child: Center(
-        child: CircularProgressIndicator(),
+        //child: CircularProgressIndicator(),
+        child: FlutterLogo(size: 400), 
       ),
     );
   }

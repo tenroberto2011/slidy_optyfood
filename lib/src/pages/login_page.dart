@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_auth_buttons/flutter_auth_buttons.dart';
 import 'package:optyfood/src/components/opty_components.dart';
 
 class LoginPage extends StatefulWidget  {
@@ -34,58 +35,12 @@ class _LoginState extends State<LoginPage> with OptyComponents {
           textEsqueceuSenha(),
           btnOptySignIn(texto: Text("Login Padrão")),
           btnOptySignIn(),
-          //Text("Login"),
-          //TextFormField(),
-          //izedBox(height: 10,),
-          //Text("Senha"),
-          //TextFormField(
-          //  obscureText: true,
-          //),
-          //SizedBox(height: 20,),
-          /*
-          Container(
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(10.0)
-            ),
-            height: 46,
-            child: RaisedButton(
-              color: Colors.blue,
-              child: Text(
-                "Login Padrão",
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 22,
-                ),
-              ),
-              onPressed: () {},
-            ),
-          ),
-          */
-          // Usando decoration,borderRadius, boxShadow
-          //
-          /*
+          btnSingInCircular(),
+          
           SizedBox(height:20,),
-          ButtonTextIcon(
-            text: "Login Padrão ",
-            iconData: Icons.apps,
-            color: Colors.black
-          ),
-          SizedBox(height:20,),
-          ButtonTextIcon(
-            text: "Login com o Google ",
-            iconData: Icons.alternate_email,
-            color: Colors.red
-          ),
-          SizedBox(height:20,),
-          ButtonTextIcon(
-            text: "Login com Facebook ",
-            iconData: Icons.wifi,
-            color: Colors.blue
-          ),
-          SizedBox(height:20,),
-          */
+  
           // Butões para Sign em redes sociais
-          /*
+          
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 1.0),
             child: Column (
@@ -98,7 +53,7 @@ class _LoginState extends State<LoginPage> with OptyComponents {
                 MicrosoftSignInButton(onPressed: () {}, darkMode: true),
             ],)
           )
-          */
+          
         ],
         
       ),

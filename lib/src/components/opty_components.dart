@@ -1,3 +1,4 @@
+
 /**
  * COMPONENTES DE INTERFACE/BIBLIOTECA OPTYDEV
  * NOME:    opty_components.dart
@@ -7,9 +8,9 @@
  *      Padroninzar os componentes usados na OPTYDEV
  */
 
-
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
+import 'package:flutter/widgets.dart';
 
 class OptyComponents {
 
@@ -28,7 +29,7 @@ class OptyComponents {
       child: TextField(
         decoration: InputDecoration (
           border: OutlineInputBorder(),
-          labelText: "Nume do Usuário",
+          labelText: "Nome do Usuário",
           hintText: "Nome do Usuário"
         ),
       ),
@@ -98,6 +99,31 @@ class OptyComponents {
   Widget btnSignInFacebook(){
   }
 */
+
+Widget btnSingInCircular(){
+    
+  return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20.0)
+                ),
+                height: 46,
+                child: RaisedButton(
+                  color: Colors.blue,
+                  child: Text(
+                    "Login Padrão",
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 22,
+                    ),
+                  ),
+                  onPressed: () {},
+                ),
+              ),
+    );
+}
+
   Widget textEsqueceuSenha(){
     return Center(child: Text("Esqueceu à senha", textAlign: TextAlign.center, style: TextStyle(decoration: TextDecoration.underline, color: Colors.grey, fontSize: 16),),);
 
