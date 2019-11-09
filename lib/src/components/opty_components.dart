@@ -49,6 +49,26 @@ class OptyComponents {
     );
   }
 
+  Widget tffNmUsuario(){
+    return Padding(
+      padding: const EdgeInsets.all(5.0), //.only(right: 30.0 , left: 30.0 , bottom: 15),
+      //padding: const EdgeInsets.only(right: 30.0 , left: 30.0 , bottom: 15),
+      child: TextFormField(
+        decoration: const InputDecoration(
+          icon: Icon(Icons.person),
+          hintText: 'What do people call you?',
+	        labelText: 'Name *',
+        ),
+        onSaved: (String value) {
+	    // This optional block of code can be used to run
+	    // code when the user saves the form.
+        },
+        validator: (String value) {
+          return value.contains('@') ? 'Do not use the @ char.' : null;
+        },
+      )
+      );
+  }
 
   Widget btnOptySignIn({
     bool isLoading = false, 
@@ -60,7 +80,7 @@ class OptyComponents {
 
 
     EdgeInsets padding = const EdgeInsets.all(10.0) }){
-      
+
     //.only(right: 30.0, left: 30.0, top: 70, bottom: 70)
       _loading(){
         return Padding(
